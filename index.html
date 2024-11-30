@@ -1,21 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Berwick Upon Tweed</title>
+    <title>Berwick Upon Tweed - Discover Our History</title>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
 
@@ -24,16 +12,15 @@
     <!-- Open Graph Meta Tags for Social Media -->
     <meta property="og:title" content="Berwick-upon-Tweed - A Charming Border Town">
     <meta property="og:description" content="Discover Berwick-upon-Tweed, a picturesque town on the border of England and Scotland, rich in history and culture.">
-    <meta property="og:image" content="https://yourdomain.com/og-image.jpg">
-    <meta property="og:url" content="https://yourdomain.com/">
+    <meta property="og:image" content="parallax.jpg">
+    <meta property="og:url" content="https://berwick-upon-tweed.com/">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="image of berwick-upon-tweed town center clock tower town hall">
     <meta name="twitter:title" content="Berwick-upon-Tweed - A Charming Border Town">
     <meta name="twitter:description" content="Discover Berwick-upon-Tweed, a picturesque town on the border of England and Scotland, rich in history and culture.">
-    <meta name="twitter:image" content="https://yourdomain.com/og-image.jpg">
-
+    <meta name="twitter:image" content="parallax.jpg">
 </head>
 <body>
     <!-- Hero Section -->
@@ -41,7 +28,7 @@
         <h1>Discover the Beauty and History of Berwick Upon Tweed</h1>
         <p>Experience the charm of history, attractions, and events.</p>
         <button onclick="scrollToSection('history')">Learn More</button>
-        <button onclick="scrollToSection('events')">Upcoming Events</button>
+        <button onclick="scrollToSection('livestream')">Live Stream</button>
     </section>
 
     <!-- History Section -->
@@ -52,30 +39,25 @@
         </div>
     </section>
 
-    <!-- Attractions Section -->
     <!-- Live Stream Section -->
-<section id="livestream">
-    <h2>Live Stream of Berwick Town Center</h2>
-    <div class="livestream-container">
-        <iframe src="https://g0.ipcamlive.com/player/player.php?alias=674a61a0c0711" width="800px" height="450px" frameborder="0" allowfullscreen></iframe> 
-    </div>
-</section>
-
-
-    <!-- Events Section -->
-    <section id="events" class="parallax">
-        <div class="content">
-            <h2>Upcoming Events</h2>
-            <p>Discover local events, festivals, and community activities happening in Berwick Upon Tweed.</p>
+    <section id="livestream">
+        <h2>Live Stream of Berwick Town Center</h2>
+        <div class="livestream-container">
+            <iframe src="https://g0.ipcamlive.com/player/player.php?alias=674a61a0c0711" 
+                width="800" 
+                height="450" 
+                frameborder="0" 
+                allowfullscreen
+                title="Live Stream of Berwick Town Center">
+            </iframe>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@berwick-upon-tweed.com</p>
-        <p>Phone: 01289 789632</p>
-      
+        <p>Email: <a href="mailto:info@berwick-upon-tweed.com">info@berwick-upon-tweed.com</a></p>
+        <p>Phone: <a href="tel:01289789632">01289 789632</a></p>
     </section>
 </body>
 </html>
