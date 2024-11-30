@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Hero Section */
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('hero.jpg') center/cover fixed no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent gray overlay */
+    z-index: -1;
+}
+
+.hero h1, .hero p, .hero button {
+    position: relative;
+    z-index: 2; /* Ensure content appears above the overlay */
+}
+
+
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Parallax Section */
+.parallax {
+    height: 60vh;
+    background: url('parallax.jpg') center/cover fixed no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.parallax .content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Attractions Section */
+#attractions {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.attraction {
+    margin: 20px auto;
+    max-width: 600px;
+    position: relative;
+}
+
+.attraction video {
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.attraction video:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+/* Live Stream Section */
+#livestream {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#livestream h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.livestream-container {
+    margin: 0 auto;
+    max-width: 800px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.livestream-container iframe {
+    width: 100%;
+    height: 450px; /* Adjust height as needed */
+    display: block;
+    border: none;
+}
