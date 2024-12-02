@@ -25,8 +25,7 @@
             <video:title>Timelapse of Berwick-upon-Tweed</video:title>
             <video:description>Stunning timelapse video capturing the beauty of Berwick-upon-Tweed's skyline and coastal areas.</video:description>
             <video:content_loc>https://berwick-upon-tweed.com/timelapse1.mp4</video:content_loc>
-            <video:player_loc allow_embed="yes">https://berwick-upon-tweed.com/embed/timelapse</video:player_loc>
-            <video:duration>120</video:duration>
+            <video:duration>9</video:duration>
             <video:publication_date>2024-11-30T08:00:00+00:00</video:publication_date>
             <video:live>no</video:live>
         </video:video>
