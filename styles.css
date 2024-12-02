@@ -123,24 +123,9 @@ body {
 
 
 /* Live Stream Section */
-#livestream {
-    padding: 50px;
-    background: #f9f9f9;
-    text-align: center;
-}
 
-#livestream h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
 
-.livestream-container {
-    margin: 0 auto;
-    max-width: 800px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-}
+
 
 .livestream-container iframe {
     width: 100%;
@@ -148,3 +133,42 @@ body {
     display: block;
     border: none;
 }
+
+
+/* Live Stream Section */
+#livestream {
+    padding: 50px 20px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#livestream h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.livestream-container {
+    margin: 0 auto;
+    max-width: 800px;
+    background: #fff;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.livestream-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.livestream-container video:hover {
+    transform: scale(1.01); /* Slight zoom effect on hover */
+    transition: transform 0.3s ease;
+}
+
